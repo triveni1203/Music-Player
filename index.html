@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Premium Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="title">My Playlist</h2>
+
+<div class="song-list" id="songList"></div>
+
+<div class="player">
+    <img id="playerCover">
+    <div class="info">
+        <h4 id="playerTitle"></h4>
+        <div class="progress-container" id="progressContainer">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <button onclick="prevSong()">⏮</button>
+        <button onclick="playPause()" id="playBtn">▶</button>
+        <button onclick="nextSong()">⏭</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
